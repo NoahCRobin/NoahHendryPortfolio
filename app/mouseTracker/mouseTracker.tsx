@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export function Welcome() {
+export function MouseTracker() {
   const [mouseState, setMouseState] = useState<{
     clientX: number;
     clientY: number;
